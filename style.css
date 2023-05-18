@@ -1,26 +1,174 @@
-#navegador{
-    color:#333333;
-    display: flex;
-    flex-direction: row;
-    background-color: green;
-    justify-content: center;   
+@font-face {
+  font-family: 'Open Sans';
+  src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV4ewJER.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
-#navegador li{
+
+
+body {
+    background-color: #f6f9fd;
+    font-family:"Open Sans", Times, serif;
+  }
+
+  .anchura{
+    width: 50%;
+    margin: auto;
+  }
+
+
+.titulo h1{
+  font-size: 80px;
+  margin-top:200px;
+  background-color: aqua;
+  text-align:center;
+}
+.titulo h2 {
+  text-align:center;
+  background-color: #ff556e;
+}
+
+#yellow{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+  #image{
+    background-color: #fff;
     display:flex;
     justify-content: center;
-    align-items: center;
-}
+    height: 600px;
 
-#buttonwhite{
-    background-color: #ff556e;
 }
-#logo{
-    background-color: red;
-    display:flex;
     
+#NAVBAR {
+    background-color: #f6f9fd;
+}
 
+#LOGO {
+  width: 6rem;
+	height: 2rem;
+ 
+
+  }
+  #containerlogo {
+    margin:auto;
+   
+  }
+
+  #button-nav{
+    display: flex;
+    justify-content:flex-end ;
+    margin: auto;
+    width: 50%;
+  }
+
+  #PAGS-NAV .nav-link {
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+  }
+
+  #PAGS-NAV .nav-link:hover {
+    color: #ff556e;
+  }
+  
+  #DOWNLOAD-BTN {
+    color: #ff556e;
+    font-weight: bold;
+    background-color: #f7fafd;
+    border-color: #ff556e;
+    border-width: 3px;
+    box-shadow: #ff556e;
+  }
+  #DOWNLOAD-BTN2{
+    background-color: #ff556e;
+    border-color: #ff556e;
+    border-width: 20px;
+    
+  }
+
+#DOWNLOAD-BTN3{
+  background-color: #ff556e;
+  border-color: #ff556e;
+  border-width: 20px;
+  display: flex;
+  justify-content: center;
+  
+}
+.botones{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
+#apple{
+  height: 1.5rem;
+  width: 1.5rem;
+}
 
+#play-solid{
+  height: 1.5rem;
+  width: 1.5rem;
 
+}
+
+.iconos{
+  
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+
+}
+ 
+
+#users{
+   background-color:#f7fafd;
+    color:#aa7eec;
+    width:120px;
+    height:120px;
+    border-radius: 30%;
+    
+}
+#code{
+  background-color:#f7fafd;
+    width:120px;
+    height:120px;
+
+}
+#gear{
+  background-color:#f7fafd;
+    width:120px;
+    height:120px;
+}
+
+#comments{
+  background-color: #f7fafd;
+  width: 120px;
+  height: 120px;
+}
+  #rocket{
+    background-color:#f7fafd;
+    width:120px;
+    height:120px;
+  }
+
+  .titulo-icono{
+
+    background-color: aquamarine;
+    font-size: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #app1{
+    position: relative;
+  
+  }
+
+  
+  
