@@ -8,6 +8,7 @@
 body {
     background-color: #f6f9fd;
     font-family:"Open Sans", Times, serif;
+  
   }
 
   .anchura{
@@ -19,12 +20,10 @@ body {
 .titulo h1{
   font-size: 80px;
   margin-top:200px;
-  background-color: aqua;
   text-align:center;
 }
 .titulo h2 {
   text-align:center;
-  background-color: #ff556e;
 }
 
 #yellow{
@@ -42,7 +41,7 @@ body {
 
 }
     
-#NAVBAR {
+#navbar {
     background-color: #f6f9fd;
 }
 
@@ -64,32 +63,32 @@ body {
     width: 50%;
   }
 
-  #PAGS-NAV .nav-link {
+  #pags-nav .nav-link {
     font-size: medium;
     font-weight: bold;
     color: black;
   }
 
-  #PAGS-NAV .nav-link:hover {
+  #pags-nav .nav-link:hover {
     color: #ff556e;
   }
   
-  #DOWNLOAD-BTN {
+  #download-btn1 {
     color: #ff556e;
     font-weight: bold;
     background-color: #f7fafd;
     border-color: #ff556e;
     border-width: 3px;
     box-shadow: #ff556e;
+
   }
-  #DOWNLOAD-BTN2{
+  #download-btn2{
     background-color: #ff556e;
     border-color: #ff556e;
-    border-width: 20px;
-    
+    border-width: 20px; 
   }
 
-#DOWNLOAD-BTN3{
+#download-btn3{
   background-color: #ff556e;
   border-color: #ff556e;
   border-width: 20px;
@@ -137,23 +136,28 @@ body {
   background-color:#f7fafd;
     width:120px;
     height:120px;
+    border-radius: 30%;
 
 }
 #gear{
   background-color:#f7fafd;
     width:120px;
     height:120px;
+    border-radius: 30%;
 }
 
 #comments{
   background-color: #f7fafd;
   width: 120px;
   height: 120px;
+  border-radius: 30%;
+
 }
   #rocket{
     background-color:#f7fafd;
     width:120px;
     height:120px;
+    border-radius: 30%;
   }
 
   .titulo-icono{
@@ -166,9 +170,62 @@ body {
   }
 
   #app1{
-    position: relative;
+    display:flex;
+    justify-content:flex-start
+    flex-direction: row;
+     }
+
+  #anchura2{
+    background-color: black;
+    display:flex
+    flex-direction:row;
+    justify-content:flex-start; 
+  }
+  
+    
+
+
+  #text2{
+    color:grey;
+    display:flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    width: 50%;
+    margin: auto;
   
   }
+  #text3{
+    color:grey;
+    display:flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    width: 50%;
+    margin: auto;
+  }
+#list{
+    color:grey;
+    display:flex;
+    justify-content:flex-end;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+.a{
 
-  
-  
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+   
+}
+
+#text3 {
+font-size: 35px;
+}
+
+.section1{
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
